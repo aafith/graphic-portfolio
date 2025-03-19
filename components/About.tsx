@@ -22,7 +22,7 @@ function About() {
                     <div className="flex flex-col text-center md:text-left items-center md:items-start gap-4 order-2 md:order-2">
                         <h1 className="text-xl md:text-2xl lg:text-3xl font-semibold">About Me</h1>
                         <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold uppercase text-gray-400">Who am I</h2>
-                        <div className="max-w-2xl mx-auto text-left">
+                        <div className="max-w-2xl mx-auto text-center md:text-left">
                             <p className="text-base sm:text-lg md:text-xl">
                                 I&apos;m a passionate graphic designer with over 6 years of experience in creating visually stunning designs.
                                 I specialize in branding, digital illustration, and user interface design, and I strive to create impactful
