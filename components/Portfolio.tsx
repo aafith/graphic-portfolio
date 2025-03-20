@@ -27,12 +27,12 @@ function Portfolio() {
     return (
         <section className="px-4 py-8 md:py-8 lg:py-8" id="portfolio">
             <Tabs value={selectedTab} onValueChange={(value) => setSelectedTab(value)} className="w-full">
-                <div className="flex justify-center items-center py-8">
-                    <TabsList className="flex space-x-4 rounded-full px-5">
-                        <TabsTrigger value="all" className="rounded-full px-4">All</TabsTrigger>
-                        <TabsTrigger value="logo" className="rounded-full px-4">Logo</TabsTrigger>
-                        <TabsTrigger value="branding" className="rounded-full px-4">Branding</TabsTrigger>
-                        <TabsTrigger value="poster" className="rounded-full px-4">Posters</TabsTrigger>
+                <div className="flex justify-center items-center py-8 px-5 flex-wrap gap-4">
+                    <TabsList className="flex flex-wrap justify-center space-x-2 md:space-x-4 rounded-full px-5">
+                        <TabsTrigger value="all" className="rounded-full py-2">All</TabsTrigger>
+                        <TabsTrigger value="logo" className="rounded-full py-2">Logo</TabsTrigger>
+                        <TabsTrigger value="branding" className="rounded-full py-2">Branding</TabsTrigger>
+                        <TabsTrigger value="poster" className="rounded-full py-2">Posters</TabsTrigger>
                     </TabsList>
                 </div>
 

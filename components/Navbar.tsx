@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { Button } from "./ui/button";
 import Image from "next/image";
-import { RiCloseLine, RiMenu2Line } from "@remixicon/react";
+import { RiCloseLine, RiMenuLine } from "@remixicon/react";
 
 function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -45,7 +45,7 @@ function Navbar() {
                     onClick={() => setMenuOpen(!menuOpen)}
                     className="md:hidden p-2 focus:outline-none"
                 >
-                    {menuOpen ? <RiCloseLine size={24} /> : <RiMenu2Line size={24} />}
+                    {menuOpen ? <RiCloseLine size={24} /> : <RiMenuLine size={24} />}
                 </button>
             </div>
 
