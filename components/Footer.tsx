@@ -15,7 +15,7 @@ function Footer() {
                         &copy; {currentYear} - All rights reserved.
                     </p>
 
-                    <div className="hidden sm:block">
+                    <div className="hidden sm:block h-5">
                         <Separator orientation="vertical" />
                     </div>
 

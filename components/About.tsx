@@ -23,12 +23,12 @@ function About() {
                         <h1 className="text-xl md:text-2xl lg:text-3xl font-semibold">About Me</h1>
                         <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold uppercase text-gray-400">Who am I</h2>
                         <div className="max-w-2xl mx-auto text-center md:text-left">
-                            <p className="text-base sm:text-lg md:text-xl">
+                            <p className="text-base md:text-lg">
                                 I&apos;m a passionate graphic designer with over 6 years of experience in creating visually stunning designs.
                                 I specialize in branding, digital illustration, and user interface design, and I strive to create impactful
                                 experiences that resonate with audiences.
                             </p>
-                            <p className="mt-4 text-base sm:text-lg md:text-xl">
+                            <p className="mt-4 text-base md:text-lg">
                                 Design for me is not just about making things look good — it&apos;s about solving problems and communicating
                                 messages through visuals. I believe in the power of simplicity, consistency, and clarity to drive effective
                                 design solutions.
@@ -38,12 +38,12 @@ function About() {
 
                         {/* CTA Buttons */}
                         <div className="flex flex-col md:flex-row gap-2 w-full md:w-auto">
-                            <Button className="uppercase rounded-full w-full md:w-auto px-8 py-6">
+                            <Button className="rounded w-full md:w-auto px-8 py-6">
                                 Hire me
                             </Button>
                             <Button
                                 variant="outline"
-                                className="uppercase rounded-full w-full md:w-auto px-8 py-6 border-2"
+                                className="rounded w-full md:w-auto px-8 py-6 border-2"
                             >
                                 See My resume
                             </Button>

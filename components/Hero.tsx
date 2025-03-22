@@ -15,28 +15,28 @@ function Hero() {
                         
                         {/* Social Links */}
                         <div className="flex items-center gap-2 py-5 justify-center md:justify-start">
-                            <Button className="w-10 h-10 bg-blue-500 hover:bg-blue-600 rounded-none">
+                            <Button className="w-10 h-10 bg-blue-500 hover:bg-blue-600 rounded">
                                 <RiFacebookFill className="w-6 h-6" />
                             </Button>
-                            <Button className="w-10 h-10 bg-pink-500 hover:bg-pink-600 rounded-none">
+                            <Button className="w-10 h-10 bg-pink-500 hover:bg-pink-600 rounded">
                                 <RiInstagramFill className="w-6 h-6" />
                             </Button>
-                            <Button className="w-10 h-10 bg-pink-400 hover:bg-pink-500 rounded-none">
+                            <Button className="w-10 h-10 bg-pink-400 hover:bg-pink-500 rounded">
                                 <RiDribbbleFill className="w-6 h-6" />
                             </Button>
-                            <Button className="w-10 h-10 bg-blue-700 hover:bg-blue-800 rounded-none">
+                            <Button className="w-10 h-10 bg-blue-700 hover:bg-blue-800 rounded">
                                 <RiBehanceFill className="w-6 h-6" />
                             </Button>
                         </div>
 
                         {/* CTA Buttons */}
                         <div className="flex flex-col md:flex-row gap-2 w-full md:w-auto">
-                            <Button className="uppercase rounded-full w-full md:w-auto px-8 py-6">
+                            <Button className="rounded w-full md:w-auto px-8 py-6">
                                 Hire me
                             </Button>
                             <Button 
                                 variant="outline" 
-                                className="uppercase rounded-full w-full md:w-auto px-8 py-6 border-2"
+                                className="rounded w-full md:w-auto px-8 py-6 border-2"
                             >
                                 See My resume
                             </Button>

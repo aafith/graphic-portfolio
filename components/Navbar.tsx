@@ -32,13 +32,14 @@ function Navbar() {
                 {/* Desktop Navigation */}
                 <div className="hidden md:flex items-center gap-6">
                     <ul className="flex space-x-6 text-gray-700 font-medium text-sm">
-                        <li><Link href="#about" className="hover:font-semibold uppercase">About</Link></li>
-                        <li><Link href="#portfolio" className="hover:font-semibold uppercase">Portfolio</Link></li>
-                        <li><Link href="#testimonials" className="hover:font-semibold uppercase">Testimonials</Link></li>
-                        <li><Link href="#contact" className="hover:font-semibold uppercase">Contact</Link></li>
+                        <li><Link href="#about" className="hover:font-semibold">About</Link></li>
+                        <li><Link href="#portfolio" className="hover:font-semibold">Portfolio</Link></li>
+                        <li><Link href="#testimonials" className="hover:font-semibold">Testimonials</Link></li>
+                        <li><Link href="#contact" className="hover:font-semibold">Contact</Link></li>
                     </ul>
-                    <Button variant="outline" className="uppercase rounded-full">Hire Me</Button>
                 </div>
+
+                <Button className="rounded hidden md:flex">Hire Me</Button>
 
                 {/* Mobile Menu Button */}
                 <button
@@ -53,13 +54,13 @@ function Navbar() {
             {menuOpen && (
                 <div className="md:hidden absolute top-16 left-0 w-full bg-white shadow-md py-4">
                     <ul className="flex flex-col items-center space-y-4 text-gray-700 font-medium text-sm">
-                        <li><Link href="#about" onClick={() => setMenuOpen(false)} className="hover:font-semibold uppercase">About</Link></li>
-                        <li><Link href="#portfolio" onClick={() => setMenuOpen(false)} className="hover:font-semibold uppercase">Portfolio</Link></li>
-                        <li><Link href="#testimonials" onClick={() => setMenuOpen(false)} className="hover:font-semibold uppercase">Testimonials</Link></li>
-                        <li><Link href="#contact" onClick={() => setMenuOpen(false)} className="hover:font-semibold uppercase">Contact</Link></li>
+                        <li><Link href="#about" onClick={() => setMenuOpen(false)} className="hover:font-semibold">About</Link></li>
+                        <li><Link href="#portfolio" onClick={() => setMenuOpen(false)} className="hover:font-semibold">Portfolio</Link></li>
+                        <li><Link href="#testimonials" onClick={() => setMenuOpen(false)} className="hover:font-semibold">Testimonials</Link></li>
+                        <li><Link href="#contact" onClick={() => setMenuOpen(false)} className="hover:font-semibold">Contact</Link></li>
                     </ul>
                     <div className="mt-4 flex justify-center">
-                        <Button variant="outline" className="uppercase rounded-full">Hire Me</Button>
+                        <Button className="rounded">Hire Me</Button>
                     </div>
                 </div>
             )}

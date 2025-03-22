@@ -44,9 +44,9 @@ function Portfolio() {
                                 <Image
                                     src={project.image}
                                     alt={project.title}
-                                    width={500}
-                                    height={500}
-                                    className="w-full h-72 object-cove6r rounded-md mb-4 hover:scale-105 duration-300 transition-all"
+                                    width={1080}
+                                    height={1080}
+                                    className="w-full h-78 object-cove6r rounded-md mb-4 hover:scale-105 duration-300 transition-all"
                                 />
                                 <p className="text-gray-500 uppercase text-sm">{project.category}</p>
                                 <h3 className="font-bold">{project.title}</h3>
@@ -60,7 +60,7 @@ function Portfolio() {
                 {/* "Load More" Button */}
                 {visiblePortfolio.length < filteredPortfolio.length && (
                     <div className="flex justify-center mt-8">
-                        <Button onClick={handleLoadMore} variant="outline" className="uppercase rounded-full">Load More Work</Button>
+                        <Button onClick={handleLoadMore} variant="outline" className="rounded">Load More Work</Button>
                     </div>
                 )}
             </Tabs>

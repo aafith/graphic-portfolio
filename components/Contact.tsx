@@ -61,7 +61,7 @@ function Contact() {
                             name="name"
                             value={formData.name}
                             onChange={handleChange}
-                            className="w-full p-3 border rounded-lg focus:ring focus:ring-blue-300"
+                            className="w-full p-3 border rounded focus:ring focus:ring-blue-300"
                             placeholder="Your Name"
                         />
                         {errors.name && <p className="text-red-500 text-sm">{errors.name}</p>}
@@ -74,7 +74,7 @@ function Contact() {
                             name="email"
                             value={formData.email}
                             onChange={handleChange}
-                            className="w-full p-3 border rounded-lg focus:ring focus:ring-blue-300"
+                            className="w-full p-3 border rounded focus:ring focus:ring-blue-300"
                             placeholder="Your Email"
                         />
                         {errors.email && <p className="text-red-500 text-sm">{errors.email}</p>}
@@ -87,7 +87,7 @@ function Contact() {
                             value={formData.message}
                             onChange={handleChange}
                             rows={4}
-                            className="w-full p-3 border rounded-lg focus:ring focus:ring-blue-300"
+                            className="w-full p-3 border rounded focus:ring focus:ring-blue-300"
                             placeholder="Your Message"
                         ></textarea>
                         {errors.message && <p className="text-red-500 text-sm">{errors.message}</p>}
@@ -95,7 +95,7 @@ function Contact() {
 
                     <Button
                         type="submit"
-                        className="w-full text-white p-3 rounded-full font-semibold transition"
+                        className="w-full text-white p-3 rounded font-semibold transition py-6"
                     >
                         Send Message
                     </Button>
