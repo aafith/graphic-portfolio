@@ -1,10 +1,10 @@
 import { RiBehanceFill, RiDribbbleFill, RiFacebookFill, RiInstagramFill } from "@remixicon/react";
-import { Button } from "./ui/button";
+import { Button } from "../ui/button";
 import Image from "next/image";
 
 function Hero() {
     return (
-        <section className="px-4 py-8 md:py-12 lg:py-24">
+        <section className="px-4 py-8 md:py-12 lg:py-24" id="home">
             <div className="max-w-6xl mx-auto">
                 <div className="flex flex-col md:flex-row justify-between items-center gap-8">
                     {/* Text Content */}

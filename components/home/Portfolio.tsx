@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import portfolioData from "@/data/portfolioData";
 import Image from "next/image";
-import { Button } from "./ui/button";
+import { Button } from "../ui/button";
 
 function Portfolio() {
     const [selectedTab, setSelectedTab] = useState("all");

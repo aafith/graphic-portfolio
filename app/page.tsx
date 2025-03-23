@@ -1,10 +1,10 @@
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
-import Hero from "@/components/Hero";
-import About from "@/components/About";
-import Portfolio from "@/components/Portfolio";
-import Testimonials from "@/components/Testimonials";
-import Contact from "@/components/Contact";
+import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
+import Hero from "@/components/home/Hero";
+import About from "@/components/home/About";
+import Portfolio from "@/components/home/Portfolio";
+import Testimonials from "@/components/home/Testimonials";
+import Contact from "@/components/home/Contact";
 import LenisProvider from "@/components/LenisProvider";
 
 export default function Home() {
