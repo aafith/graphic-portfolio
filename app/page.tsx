@@ -1,11 +1,12 @@
-import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
-import Hero from "@/components/home/Hero";
-import About from "@/components/home/About";
-import Portfolio from "@/components/home/Portfolio";
-import Testimonials from "@/components/home/Testimonials";
-import Contact from "@/components/home/Contact";
+import Navbar from "@/components/layout/Navbar";
 import LenisProvider from "@/components/LenisProvider";
+import About from "@/components/sections/About";
+import Hero from "@/components/sections/Hero";
+import Portfolio from "@/components/sections/Portfolio";
+import Testimonials from "@/components/sections/Testimonials";
+import { Contact } from "lucide-react";
+
 
 export default function Home() {
   return (
